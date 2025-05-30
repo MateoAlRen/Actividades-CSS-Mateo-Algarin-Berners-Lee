@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="Styles.css">
+    <link rel="icon" href="images.jpeg">
+    <title>Steam Summer Fest</title>
+</head>
+<body>
+    <header class="Landing__Header">
+        <div class="Landing__Container">
+            <img class="Landing__Logo" src="images.jpeg" alt="Steam-Logo">
+            <h1 class="Landing__TextContainer">Steam Summer Fest</h1>
+        </div>
+        <hr>
+        <div class="Landing__Hero">
+            <div class="Landing__HText">
+                <h2>Welcome to the Steam Summer Fest!</h2>
+                <p>Let's See Some New Games</p>
+                <buttom class="Landing__HButton">Let's Do it!</buttom>
+            </div>
+        </div>
+    </header>
+    <!-- Carrusel de Testimonios -->
+    <section class="testimonial-carousel">
+    <input type="radio" name="testimonial" id="t1" checked>
+        <input type="radio" name="testimonial" id="t2">
+        <input type="radio" name="testimonial" id="t3">
+    <div class="testimonial-wrapper">
+            <div class="testimonial t1">
+                <p>"Un evento increíble, descubrí juegos que nunca habría probado"</p>
+                <span>- Alex G.</span>
+            </div>
+            <div class="testimonial t2">
+                <p>"La mejor experiencia de verano en línea, ¡esperando la próxima edición!"</p>
+                <span>- María L.</span>
+            </div>
+                <div class="testimonial t3">
+                <p>"Los descuentos y demos fueron brutales. Steam la rompe"</p>
+                <span>- Jorge P.</span>
+            </div>
+    </div>
+            <div class="testimonial-nav">
+                <label for="t1"></label>
+                <label for="t2"></label>
+                <label for="t3"></label>
+            </div>
+    </section>
+
+    <!-- Formulario de Registro -->
+    <section class="Landing__Formulario">
+    <h2>Regístrate al evento</h2>
+        <form>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="ticket">Tipo de ticket</label>
+            <select id="ticket" name="ticket" required>
+                <option value="">Selecciona una opción</option>
+                <option value="general">General</option>
+                <option value="vip">VIP</option>
+                <option value="prensa">Prensa</option>
+            </select>
+
+            <button class="Landing__HButton" type="submit">Enviar registro</button>
+        </form>
+     </section>
+
+    <!-- Footer -->
+    <footer class="Landing__Footer">
+    <p>&copy; 2025 Steam Summer Fest. Todos los derechos reservados.</p>
+        <div class="Landing__Redes">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <h3 class="Foot_Creator">By: Mateo Algarin Rendón - Riwi Coder</h3>
+    </footer>
+</body>
+</html>
